@@ -1,0 +1,890 @@
+SAP ID (Personal/Employee No.: 34764
+Cost Centre: 716807124C
+Net ID: qmy6we
+GID: Z0041H9Z 
+
+qmy6we@splm.siemens.com
+
+"host" : "ec2-54-67-77-203.us-west-1.compute.amazonaws.com",
+
+list.stream().sorted(Comparator.comparing(Person::getAge).thenComparing(Person::getWeight)).collect(Collectors.toList());
+
+document.addEventListener("DOMSubtreeModified", function (event) {
+  try {
+    (Array.from(document.querySelectorAll("div")).filter(d => d.id.indexOf("_panel") >= 0).filter(d => d.childNodes.length === 0)).forEach(function(item){item.style.display="none"})
+  } catch (error) {
+    alert(error);
+  }
+}, true);
+
+task cacheToLocalMavenRepository(type: Copy) {
+    from new File(gradle.gradleUserHomeDir, "caches/modules-2/files-2.1")
+    into "C:\\Users\\qmy6we\\Desktop\\demo\\fastq-to-ubam"
+    eachFile {
+        List<String> parts = it.path.split("/")
+        it.path = (parts[0]+ "/" + parts[1]).replace(".","/") + "/" + parts[2] + "/" + parts[4]
+    }
+    includeEmptyDirs false
+}
+       
+LRU
+
+curl -X POST \
+     -F token=9f9b6c2a1db014fc485e508a1b1124 \
+     -F ref=master \
+     -F "variables[TR_VALUE]=true" \
+     https://gitlab.com/api/v4/projects/10566634/trigger/pipeline
+
+maqi_Z0041H9Z_dev_integ
+7fLfQOeWvVKjhjKiv_G0KsKvrh94QvqB
+
+maqi_Z0041H9Z_dev_integ@1776133266949105
+7fLfQOeWvVKjhjKiv_G0KsKvrh94QvqB
+
+
+git tag -a v1.0 -m "my version 1.0"
+git push origin --tags
+git push origin master:master
+git checkout -b newbranch
+git push origin --delete Chapater6
+
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/rangecheck.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/signalcalculation.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/kpicomputation.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/kpiindication.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/eventanalytics/interactive/topevents.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/eventanalytics/interactive/eventfilter.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/eventanalytics/interactive/eventcount.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/eventanalytics/interactive/eventremoval.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/eventanalytics/interactive/patternmatching.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/SpikeAlertGroup/spikealert.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/noisealert.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/stepalert.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/biasalert.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/datagapanalysis.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/trendprediction.git
+
+Qiantang8848@!!!
+
+qiantang8848@!!!
+
+
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/eventcount_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/eventremoval_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/kpiindication_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/patternmatching_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/rangecheck_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/topevents_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/eventfilter_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/kpicomputation_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/noisealert_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/datagapanalysis_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/spikealert_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/trendprediction_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/signalcalculation_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/stepalert_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/biasalert_deploy.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/infrastructure.git
+git@code.siemens.com:mindsphere-ali/platform/analyticsservices/infra_ali/common.git
+
+
+    eventcount
+    eventremoval
+    kpiindication
+    patternmatching
+    rangecheck
+    topevents
+    eventfilter
+    kpicomputation
+-   noisealert
+-   datagapanalysis
+-   spikealert
+-   trendprediction
+-   signalcalculation
+-   stepalert
+-   biasalert
+        
+
+
+Array.from(document.querySelectorAll("a")).filter(a => a.href.indexOf("mindsphere-mainline/analyticsservices/") >= 0).map(a => a.href).filter(function (element, index, self) {return self.indexOf(element) === index;}).join("\n")
+
+
+o   Finding the better solution for Trend Prediction cleanup DB after testing (2) – A.C: TP DB data has been clearup after autotest 
+    - sen -
+o   GA Dev/Integ/Cert pipeline debug (2) – A.C: all of GA Dev/Integ/Cert pipeline passed [done]
+o   Analytics performance test (3) – A.C: Can run in local / Alicloud without pressure test successfully 
+    - missing files like start_jmeter.sh storing on s3
+
+- permission trouble
+- many&good document
+- good cooperation
+- tag
+
+
+CREATE SEQUENCE  model_entity_model_id_seq START 1
+
+CHCP 65001
+pg_ctl.exe start -D ..\data
+
+https://code.siemens.com/mindsphere-ali/platform/analyticsservices/noisealert/pipelines
+https://code.siemens.com/mindsphere-ali/platform/analyticsservices/noisealert
+
+
+\\cdv6s003\SharedDocs\MaQi\PerformanceTest\index.html
+
+
+
+https://code.siemens.com/mindsphere-mainline/analyticsservices/AnalyticBatchJobLauncherAWSGroup/AnalyticBatchJobLauncherClient [dependency]
+https://code.siemens.com/mindsphere-mainline/analyticsservices/AnalyticBatchJobLauncherAWSGroup/CleanupTriggerLambda
+https://code.siemens.com/mindsphere-mainline/analyticsservices/AnalyticBatchJobLauncherAWSGroup/AnalyticBatchJobLauncherAWS
+https://code.siemens.com/mindsphere-mainline/analyticsservices/AnomalyDetectionGroup/AnomalyDetectionModelTrainingBatch
+https://code.siemens.com/mindsphere-mainline/analyticsservices/AnomalyDetectionGroup/AnomalyDetectionReasoningBatch
+https://code.siemens.com/mindsphere-mainline/analyticsservices/AnomalyDetectionGroup/AnomalyDetection
+https://code.siemens.com/mindsphere-mainline/analyticsservices/DataExchangeImportJob
+https://code.siemens.com/mindsphere-mainline/analyticsservices/DataExchangeExportJob
+https://code.siemens.com/mindsphere-mainline/analyticsservices/DataExchange
+https://code.siemens.com/mindsphere-mainline/analyticsservices/IoTImportJob
+https://code.siemens.com/mindsphere-mainline/analyticsservices/iotclient
+https://code.siemens.com/mindsphere-mainline/analyticsservices/usagetransparencyserviceclient
+https://code.siemens.com/mindsphere-mainline/analyticsservices/NodeRedBatchNotificationLambda
+https://code.siemens.com/mindsphere-mainline/analyticsservices/ModelManagement
++ https://code.siemens.com/mindsphere-mainline/analyticsservices/analyticalmodelmanagementclient [dependency]
+
+
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/AnalyticBatchJobLauncherAWSGroup/AnalyticBatchJobLauncherClient.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/AnalyticBatchJobLauncherAWSGroup/CleanupTriggerLambda.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/AnalyticBatchJobLauncherAWSGroup/AnalyticBatchJobLauncherAWS.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/AnomalyDetectionGroup/AnomalyDetectionModelTrainingBatch.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/AnomalyDetectionGroup/AnomalyDetectionReasoningBatch.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/AnomalyDetectionGroup/AnomalyDetection.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/DataExchangeImportJob.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/DataExchangeExportJob.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/DataExchange.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/IoTImportJob.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/iotclient.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/usagetransparencyserviceclient.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/NodeRedBatchNotificationLambda.git
+git clone git@code.siemens.com:mindsphere-mainline/analyticsservices/ModelManagement.git
+
+
+
+nodered
+dbscan
+
+batch compute
+- https://zhuanlan.zhihu.com/p/29719748
+- https://help.aliyun.com/document_detail/28060.html?spm=a2c4g.11186623.2.26.3c8746e0tUkbtR
+
+bcs sub --file job.cfg -r oss://your-bucket/log-count/:/home/input/ -w oss://your-bucket/log-count/:/home/output
+
+
+java -cp target\mindsphere-sdk-codegen-1.0.0.jar;swagger-codegen-cli\swagger-codegen-cli.jar io.swagger.codegen.SwaggerCodegen generate -l mindsphere-sdk -DmodelPackage=com.siemens.mindsphere.sdk.event.model -DapiPackage=com.siemens.mindsphere.sdk.event.apiclient -i eventAnalytics.yaml -o generatedCode
+
+unspecific deadline
+clearly batch
+
+==================================>com.siemens.mindsphere.mindsphere-sdk-java-core<==================================
+com.siemens.mindsphere.sdk.core.constants.AuthorizationUtilConstants
+- public static final String ISSUER_REGEX="https://.+\\.piam\\..+\\.mindsphere\\.io.*";
+-> https://core.piam.cn1-int.mindsphere-in.cn/oauth/token
+
+com.siemens.mindsphere.sdk.auth.AuthorizationUtil
+-  private static boolean isIssuervalid(DecodedJWT jwt) {
+        return jwt.getIssuer().matches("https://.+\\.piam\\..+\\.mindsphere\\.io.*");
+    }
+-> https://core.piam.cn1-int.mindsphere-in.cn/oauth/token
+
+mindspheresdk.properties
+->GATEWAY_URL_POST=.mindsphere-in.cn
+
+==================================>another<==================================
+https://gateway.eu1.mindsphere.io       /api/eventanalytics/v3/findTopEvents
+https://gateway.cn1-int.mindsphere-in.cn/api/eventanalytics/v3/findTopEvents
+
+
+
+
+Staging: cf login -a https://api.cf.cn1-dev.mindsphere-in.cn --sso --skip-ssl-validation
+
+Live: cf login -a https://api.cf.cn1.mindsphere-in.cn --sso --skip-ssl-validation
+
+cf set-org-role qi.ma@siemens.com alse2e OrgManager
+
+cf set-space-role qi.ma@siemens.com alse2e dev SpaceDeveloper
+
+http://cli.cloudfoundry.org/zh-Hans/cf/
+
+
+https://gojira.siemens.com/mindsphere_wiki/display/AN/Testing+through+MindGate 
+
+
+logging.level.org.springframework.web.servlet=debug
+
+hazelcast
+
+
+register-command
+./RegisterApplication.sh http://core.piam.cn1-dev.mindsphere-in.cn/uaa/oauth/token http://gateway.cn1-dev.mindsphere-in.cn/api/gatewayregistry/v3/installations mindsphere_gateway_client placeholder
+
+
+https://gojira.siemens.com/mindsphere_wiki/display/MIN/Analytics+CICD+Pipeline+Configuration
+
+
+
+sdk test support
+model management
+registry --> register json file should be full suffix with .json
+
+
+todo:
+
+figure out apis that dependent data exchange
+
+dataexchange==> grafana SecurityLib? spring-cloud-aws-context spring-cloud-aws-messaging postgresql com.amazonaws.services.s3 uts.properties?
+
+product line optimize
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/testdb
+spring.datasource.username=123456
+spring.datasource.password=test
+
+TECHUSER_CLIENT_ID=analytics-data-exchange-client
+TECHUSER_CLIENT_SECRET=84uzWYtl4EQMJtmP63KMyABfRKiDVooAuG6spZpHo4DWQjlpVGdlxb5AUcldwX9B
+TENANT_NAME=core
+OAUTH2_URL=https://core.piam.cn1-int.mindsphere-in.cn/uaa/oauth/token
+           https://core.piam.cn1-int.mindsphere-in.cn/uaa/oauth/token
+DATA_EXCH_URL=https://gateway.cn1-int.mindsphere-in.cn/api/dataexchange/v3/
+
+OAUTH2_URL
+https://core.piam.cn1-int.mindsphere-in.cn/uaa/oauth/token
+
+
+analytics-data-exchange-client
+EwAzB4GU121RDiHEBeF3O3JYGfopVVSdX8iqE6B0xiYtf5tD2AOtBLIESNjc0uH5
+
+
+analytics-amm-client
+lRS7xVdX7Fpr039fpH6O19iwOmobGxxWzFny0EpeRlRzpnmy0B5Porp0AxgnNLud
+
+
+
+<!-- https://mvnrepository.com/artifact/com.aliyun.fc.runtime/fc-java-core -->
+<dependency>
+    <groupId>com.aliyun.fc.runtime</groupId>
+    <artifactId>fc-java-core</artifactId>
+    <version>1.3.0</version>
+</dependency>
+
+
+
+<dependency>
+   <groupId>org.springframework.cloud</groupId>
+   <artifactId>spring-cloud-starter-vault-config</artifactId>
+</dependency>
+
+[vault HTTP]
+vault server --dev --dev-root-token-id="00000000-0000-0000-0000-000000000000"
+set VAULT_ADDR=http://127.0.0.1:8200
+vault kv put secret/gs-vault-config example.username=demouser example.password=demopassword
+vault kv get secret/gs-vault-config
+
+[vault HTTPS]
+[config.hcl]
+    listener "tcp" {
+      address = "0.0.0.0:8200"
+      tls_cert_file = "server.crt"
+      tls_key_file  = "server.key"
+    }
+    storage "file" {
+      path = "storagefile"
+    }
+    api_addr = "https://127.0.0.1:8200"
+    ui = true
+
+vault server -config config.hcl
+set VAULT_ADDR=https://127.0.0.1:8200
+vault operator init
+vault operator unseal
+vault operator unseal
+vault operator unseal
+vault login s.5gWr9JOmVmrupNxfK8mUVeAS
+vault secrets list -detailed
+vault secrets enable -path=secret kv
+vault kv put secret/gs-vault-config example.username=demouser example.password=demopassword
+
+wen.feng@siemens.com    qwerUIOP1234()_+
+
+get
+http://127.0.0.1:8200/v1/secret/gs-vault-config
+
+curl -X GET https://vault.mdsp.gadev/v1/analytics/integ/pw-gateway -H 'X-Vault-Token: 4liwzr1rixxGGEnLpV4mOIOq' 
+
+
+- header
+"X-Vault-Token" -> "00000000-0000-0000-0000-000000000000"
+
+gradlew sonarqube -Dsonar.host.url=$SONAR_HOST -Dsonar.login=$SONAR_TOKEN -Dsonar.analysis.mode=publish -Dsonar.projectKey=$SONAR_PROJECT_KEY -Dsonar.projectName=$SONAR_PROJECT_NAME --stacktrace
+
+
+git commit --amend --date="Fri May 24 17:56:52 2019 +0800"
+
+- vault
+analytics.job.batch.admin.techuser.clientID
+analytics.job.batch.admin.techuser.clientSecret
+analytics.job.techuser.accessTokenUri
+
+- env
+cleanupUrl https://gateway.eu1.mindsphere.io/api/analyticbatchjoblauncher/v3/cleanup
+retentionDays 7
+
+Seconds Minutes Hours Day-of-month Month Day-of-week
+cron(0 0 * * ? *)
+
+<server>
+<id>ali</id>
+<username>z003uzty</username>
+<password>APUhTfSoegWmFDxSjM148pfkpg</password>
+</server>
+
+update document
+test secretparameterstore
+c sharp
+
+visual studio (debug, shortcuts)
+dependency(rds oss cloudwatch ssm redlock redis)
+
+dotnet publish -c Release --self-contained -r win-x86
+
+ng xi18n --output-path src/locale
+
+eas api yaml
+ssm
+CloudWatchLogs
+s3
+
+REDIS_HOST
+
+transfer app
+    AWS: lambda, api gateway, ssm, sqs, dynamodb, vault, cloudwatch, s3
+    FRAMEWORK: Guice
+    dev: debug local
+
+
+-Dmaven.test.skip=true
+
+
+PRL_CONF_DIR
+user.home
+SPARK_CONF_DIR
+SPARK_HOME
+AWS_REGION  def us-east-1
+oob-wait-sleep-time def 3000
+predictive-properties def /tmp/predictive.properties
+
+http://1776133266949105.mns.cn-shanghai-internal.aliyuncs.com
+http://1776133266949105.mns.cn-shanghai-internal.aliyuncs.com/
+
+(?!\s+$)[a-zA-Z0-9.,_ ()\u4e00-\u9fa5-]{1,256}
+
+IP: 139.196.204.245
+User: siemens
+Password: Siemens_12345
+
+export VAULT_ADDR=https://vault.mdsp.gadev
+export VAULT_TOKEN=4liwzr1rixxGGEnLpV4mOIOq
+
+kubectl get namespace
+kubectl get pods -n analyticsservices-gainteg
+kubectl exec -it prl-api-65f8584766-bbdsm /bin/sh -n analyticsservices-gainteg
+
+export VAULT_ADDR=https://vault.mdsp.gadev
+export VAULT_TOKEN=4liwzr1rixxGGEnLpV4mOIOq
+export VAULT_CACERT=/home/siemens/analytics/ca/vault_dev.pem
+
+vault server --dev --dev-root-token-id="00000000-0000-0000-0000-000000000000" -ca-cert=root.crt
+
+7fLfQOeWvVKjhjKiv_G0KsKvrh94QvqB
+yw__cbBSjhJWtRagvHk2q6gps8nHdBpQ
+
+mysql -h predict-shared-polardb.rwlb.rds.aliyuncs.com -u root -p
+
+Analytics&01
+
+hello="this is some text"
+var="hello"
+echo "${!var}"
+this is some text
+
+http://localhost:8080/predictive-learning/rest/prl/v3/datasets
+
+
+keytool -importkeystore -srckeystore root.jks -destkeystore root.p12 -srcstoretype jks -deststoretype pkcs12
+openssl pkcs12 -in root.p12 -out root.pem
+
+curl -k -X GET https://vault.mdsp.gadev/v1/analytics/integ/prl-api/mdsp_prl_techuser_secret -H "X-Vault-Token:4liwzr1rixxGGEnLpV4mOIOq"
+curl -k -X GET https://192.168.56.103:8200/v1/secret/gs-vault-config -H "X-Vault-Token:s.5gWr9JOmVmrupNxfK8mUVeAS"
+
+yum -y groups install "GNOME Desktop" 
+startx
+
+
+
+
+
+Code Analysis / Code Quality Monitoring
+Monitoring SonarQube issues and test coverage locally can be done fairly easily:
+
+Download a recent version of SonarQube (i.e., 6.7+), and start it locally - no setup required. On Windows this is done by simply running <sonarqube-dir>/bin/windows-x86-64/StartSonar.bat.
+Add the following to your global gradle.properties file, normally located in ~/.gradle:
+
+systemProp.sonar.host.url=http://localhost:9000
+systemProp.sonar.analysis.mode=publish
+
+
+Run sh gradlew clean sonarqube to generate and publish local SonarQube analysis for whatever branch you"re currently on.
+View analysis results and test coverage by going to http://localhost:9000 in your browser.
+
+
+
+
+
+08-14-2019 13:48:37.712 CST,  INFO, 505cd222-c6c2-4bb1-834c-5eb1e1101590, , , qtp1832620758-38, com.siemens.mindsphere.prl.environment.sc.EnvironmentManagerSC::launchEnvironment, [Tenant = ten, userName = username ] 
+08-14-2019 13:48:37.923 CST,  INFO, 505cd222-c6c2-4bb1-834c-5eb1e1101590, , , qtp1832620758-38, com.siemens.mindsphere.prl.environment.sc.EnvironmentManagerSC::launchEnvironment, [Provisioned Product = 7bc47280-c36c-4948-8005-57294e150c63 ] 
+08-14-2019 13:48:55.184 CST,  INFO, 505cd222-c6c2-4bb1-834c-5eb1e1101590, , , qtp1832620758-38, com.siemens.mindsphere.prl.environment.sc.EnvironmentManagerSC::calculateVpcCIDR, [Segment number for vpc [0]] 
+08-14-2019 13:48:55.186 CST,  INFO, 505cd222-c6c2-4bb1-834c-5eb1e1101590, , , qtp1832620758-38, com.siemens.mindsphere.prl.environment.sc.EnvironmentManagerSC::calculateVpcCIDR, [VPC CIDR [10.0.0.0/18]] 
+08-14-2019 13:48:55.187 CST,  INFO, 505cd222-c6c2-4bb1-834c-5eb1e1101590, , , qtp1832620758-38, com.siemens.mindsphere.prl.environment.sc.EnvironmentManagerSC::calculateVpcCIDR, [Private subnet CIDR [10.0.0.0/20]] 
+08-14-2019 13:48:55.188 CST,  INFO, 505cd222-c6c2-4bb1-834c-5eb1e1101590, , , qtp1832620758-38, com.siemens.mindsphere.prl.environment.sc.EnvironmentManagerSC::calculateVpcCIDR, [Public subnet CIDR [10.0.16.0/20]] 
+
+
+http://emma-test.oss-cn-shanghai.aliyuncs.com/spring-cloud-gateway/scgateway-0.0.1-SNAPSHOT.jar
+
+
+{Key: coreNodeType,Value: m4.4xlarge}
+{Key: predictiveHeartBeatQueueExportName,Value: {|cf.predictiveHeartBeatQueueExportName|}}
+{Key: numCoreNodes,Value: 5}
+{Key: snsTopicInternal,Value: {|cf.snstopicinternal|}}
+{Key: userName,Value: username}
+{Key: elbCertificate,Value: {|cf.elbcertificate|}}
+{Key: hostedZoneName,Value: {|cf.zonename|}}
+{Key: PrivateRange,Value: 10.0.0.0/20}
+{Key: ec2KeyName,Value: {|cf.ec2keyname|}}
+{Key: VPCBlockCIDR,Value: 10.0.0.0/18}
+{Key: autoShutDownLambdaRoleExportName,Value: {|cf.autoShutDownLambdaRoleExportName|}}
+{Key: nginxAMI,Value: ami-e2e27a8d}
+{Key: envName,Value: {|cf.envName|}}
+{Key: zoneId,Value: {|cf.zoneid|}}
+{Key: numMasterNodes,Value: 1}
+{Key: jwtPublicKey,Value: MIIBIjANBgkqhkiG9w0BAQEFAAC4QQIDAQAB}
+{Key: emrReleaseLabel,Value: emr-5.23.0}
+{Key: PublicRange,Value: 10.0.16.0/20}
+{Key: ioBucket,Value: {|cf.ioBucket|}}
+{Key: notebookBucket,Value: {|cf.nbBucket|}}
+{Key: masterNodeType,Value: m4.4xlarge}
+{Key: tenant,Value: ten}
+{Key: alertHours,Value: 10}
+{Key: publicHostName,Value: ten-username-1565851268197.{|cf.zonename|}}
+{Key: ExternalS3Bucket,Value: tests}
+
+
+
+- WSEnvironment AutoShutdownSQS
+
+ros related java code
+- WSEnvironment elb 
+- WSEnvironment vpc
+- WSEnvironment nginx+ (deploy Spring cloud gateway on ecs)
+- WSEnvironment EMR
+
+- WSEnvironment script migrate (installJavaLibs.sh cp_tf.sh ossfs-mount.sh)
+
+
+
+
+java -Duser.username= -Duser.security.jwt.secret= -Dspring.cloud.gateway.routes[0].uri= -Dspring.cloud.gateway.routes[0].predicates[0]=Path=/** -jar sc.jar
+
+
+
+
+
+{Key: coreNodeType,Value: m4.4xlarge}
+{Key: predictiveHeartBeatQueueExportName,Value: {|cf.predictiveHeartBeatQueueExportName|}}
+{Key: numCoreNodes,Value: 10}
+{Key: snsTopicInternal,Value: {|cf.snstopicinternal|}}
+{Key: userName,Value: username}
+{Key: elbCertificate,Value: {|cf.elbcertificate|}}
+{Key: hostedZoneName,Value: {|cf.zonename|}}
+{Key: PrivateRange,Value: 10.0.64.0/20}
+{Key: ec2KeyName,Value: {|cf.ec2keyname|}}
+{Key: VPCBlockCIDR,Value: 10.0.64.0/18}
+{Key: autoShutDownLambdaRoleExportName,Value: {|cf.autoShutDownLambdaRoleExportName|}}
+{Key: nginxAMI,Value: ami-e2e27a8d}
+{Key: envName,Value: {|cf.envName|}}
+{Key: zoneId,Value: {|cf.zoneid|}}
+{Key: numMasterNodes,Value: 1}
+{Key: jwtPublicKey,Value: MIIBIjANBgkqhkiG9w0BAQEFAAC4QQIDAQAB9w0BAQEFAAOCAQ8AMIIBCgKC}
+{Key: emrReleaseLabel,Value: emr-5.23.0}
+{Key: PublicRange,Value: 10.0.80.0/20}
+{Key: ioBucket,Value: {|cf.ioBucket|}}
+{Key: notebookBucket,Value: {|cf.nbBucket|}}
+{Key: masterNodeType,Value: m4.4xlarge}
+{Key: tenant,Value: ss}
+{Key: alertHours,Value: 10}
+{Key: publicHostName,Value: ss-username-1566183646886.{|cf.zonename|}}
+{Key: ExternalS3Bucket,}
+{Key: ExternalS3ObjectPrefix,Value: tests3url/*}
+
+
+emr auto delete
+emr document
+
+-i https://mirrors.aliyun.com/pypi/simple/
+
+
+"mkdir mindsphere-mainline\coreservices\servicediscovery\servicediscovery && cd mindsphere-mainline/coreservices/servicediscovery/servicediscovery && git clone git@code.siemens.com:mindsphere-mainline/coreservices/servicediscovery/servicediscovery.git"
+
+sublime: shift + right
+vscode: alt + shift + left
+idea: alt + left
+
+Adapt MindSphere App to the mobile devices by wechat app or other mobile app tech, add quickly data and analysis result sharing feature in these mobile app to help user quickly insight the data and master the data anywhere, anytime.
+a.  Such as data transparence app FleetManager, user can quickly get the raw monitor data and event.
+b.  As for Predictive learning, user can use mobile app to get the model training and prediction result, because model training usually is a time-consuming work. So getting job training result, trigger model execution and get execution result anywhere, anytime is quite important for data scientist and managers.
+
+
+1. cloud monitor trigger mns wangzong
+2. ECS images automation MaQi
+3. tenant vpc connect mindsphere wangzong
+
+OSS_ACCESS_KEY_ID=LTAIcZEQp8qyZPor
+OSS_ENDPOINT=http://oss-cn-shanghai.aliyuncs.com
+OSS_SECRET_ACCESS_KEY=JVxAfjWmG0DrbGz1nWfxnmAAGY3VqL
+DB_USERNAME=postgres
+
+
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmQ8tewMtWOjjSHGhEB0Wf0tbcVSMgebe1zMnz1D0OlyUINmZgEFGk/xvSemeGJ66tgQX/znAjmbkG2vlYODoHWiXAR8tEq3D3w57PXIR9FdjP9/83P1D8S1sL4lq5VsS6Q/TMkEeVU++x2GloAzXhJwqqTq9sijmTLx0qHf4LyJjgik3LIQ7y9bzgB8b4P0ts0DIjlsOYORGcUYQdxB+2YfZ+ecfOEvF2i0/MX95CgqIWRkTG3EcpKpVxriewlS4HtWt2q6VcFkAQ10qvXqQOTZtgXhBw5x1W4wcunL9OCE9IwUrJg9k7BVrwZEb78q+yiJO+FHTRF1MZ8NSt6lu5QIDAQAB
+
+
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ3YW5namluZyIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJ3YW5namluZyIsInRlbmFudCI6WyJ0ZW4iXX0.D1y2mzccPJjIqdnUw5Qs9Q6cJFBRAyww3zFi7g8Xhbw6-CIBst5NL9QMBywkuoDWlGjbzzaLdyCQ5HfYUrEtS03puPm8qNydwHIDNebzJSlyaT4DcZ4RBaKYplaiLISYHD8CLY4x4Qa976s5kvtYPJ2DZsuucdpbwJUEbdj4hzVuPUAy8US_8Mmt5looaqYi2dNeG2m4OuhEMUuxBEtl4p0Sf3oWq0Wq0YuQIAXCxGXOK7AULbPHD1VlX1_QSY9Rgc0NmP6TOMsjWFCzoetjiULpIbcHd35ZBH52L2wPUQqf2KE-pmvRcvKICwygxEsSV248KL39z_PfP5c2qHZOaA
+
+nohup java -Duser.username=wangjing -Duser.security.jwt.secret=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmQ8tewMtWOjjSHGhEB0Wf0tbcVSMgebe1zMnz1D0OlyUINmZgEFGk/xvSemeGJ66tgQX/znAjmbkG2vlYODoHWiXAR8tEq3D3w57PXIR9FdjP9/83P1D8S1sL4lq5VsS6Q/TMkEeVU++x2GloAzXhJwqqTq9sijmTLx0qHf4LyJjgik3LIQ7y9bzgB8b4P0ts0DIjlsOYORGcUYQdxB+2YfZ+ecfOEvF2i0/MX95CgqIWRkTG3EcpKpVxriewlS4HtWt2q6VcFkAQ10qvXqQOTZtgXhBw5x1W4wcunL9OCE9IwUrJg9k7BVrwZEb78q+yiJO+FHTRF1MZ8NSt6lu5QIDAQAB -Dspring.cloud.gateway.routes[0].uri=http://192.168.1.2:8080 -Dspring.cloud.gateway.routes[0].predicates[0]=Path=/** -Dlogging.file=log.txt -Dserver.port=80 -jar scgateway.jar &>/dev/null &
+
+<h2>Base64 encoder/decoder</h2>
+
+raw characters
+base64 characters
+
+wx.hideTabBar({})
+
+
+node local.js -s mybrandnewapp.herokuapp.com -l 1080 -m aes-256-cfb  -k 12345678 -p 80
+
+sudo docker run -p 81:8082 -d --env USER_NAME=yangyun@siemens.com --env ROUTE_URL=http://192.168.1.138:8880 --env JWT_SECRET=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp1n57YCnWCtXxzHfu4WoBUMXE3rbIhiO229n2PwTbzKOji/T4Jx/mMe0LDW5/q/AhlbDKmLmTgnsfWmK5BAgMLP+Rfbf4aLEwXtzdCct3VAtuJO6vzug4RwOXijVvOIEsV12dUd+I6xpwW340sbFEbvUVxKA1RC905cKJ3MChlmgXInoIi9oMrNnZf7/K1D56+pDCL8ZmqW/pbaKQ5LoH/QIQX4V/wXT0ymZzBbfyvou3vv7KTx4PSqRdff00W9qqjkuOccfJOspT0oKUOwsiHlpQWsVijhNN70jVqnARIz3tBoFfwEoh4rBYt4XOKryOJ/Z/8GYZ5Ujwz+lwalnjwIDAQAB registry.cn-shanghai.aliyuncs.com/mdsp-ali-analytics/scgateway
+
+
+expectNext(
+org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ffffffc4: Principal: null; Credentials: [PROTECTED]; Authenticated: true; Details: null; Not granted any authorities
+)" failed (expected: onNext(
+org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ffffffc4: Principal: null; Credentials: [PROTECTED]; Authenticated: true; Details: null; Not granted any authorities
+); actual: onComplete())
+export SONAR_SCANNER_OPTS="-Xmx3062m -XX:MaxPermSize=512m -XX:ReservedCodeCacheSize=128m"
+https://altcdev-qima-1570780190526.analytics.cn1-int.internal.mindsphere-in.cn:8080
+https://altcdev-qima-1570780190526.analytics.cn1-int.internal.mindsphere-in.cn:8080/api/contents
+
+
+{"tenantId":"ten","cluster_id":"id","state":"RUNNING","stackName":"good"}
+"{\"tenantId\":\"ten\",\"cluster_id\":\"id\",\"state\":\"RUNNING\",\"stackName\":\"good\"}"
+
+fVs$Zm+.yWIg:Ry!6'\ZqY!1M
+
+PGPASSWORD="Ecgateway1234" psql --dbname="ecgateway" --username="postgres" --host="pgm-uf6r3upm2u12i05bao.pg.rds.aliyuncs.com" --file="config/sql/init_schema.sql" --port=3433
+
+PGPASSWORD="$DB_PASSWORD" psql --dbname=testdb --username="$DB_USERNAME" --host=postgres --file="src/main/resources/sql_init_schema.sql"
+
+PGPASSWORD="Analytics_20" psql --dbname=pwgateway --username="postgres" --host="pgm-uf6db5v64k19114x.pg.rds.aliyuncs.com" --port=3433
+
+## connect from cmd
+
+psql -U $username
+
+# list databases
+\l
+
+# choose database
+\c $database_name
+
+# show schema
+\dn
+
+SET search_path TO myschema;
+
+SHOW search_path;
+
+# show sequence
+\ds
+
+# show tables
+\dt
+
+#show table detail
+\d table_name
+
+# dump database
+\! pg_dump -U postgres -d database_name > backup.sql
+
+# terminate all connections
+SELECT pg_terminate_backend(pg_stat_activity.pid) FROM pg_stat_activity WHERE pg_stat_activity.datname = 'jobmanager' AND pid <> pg_backend_pid();
+
+
+jstat -gc 21711
+
+S0C、S1C、S0U、S1U：Survivor 0/1区容量（Capacity）和使用量（Used）
+EC、EU：Eden区容量和使用量
+OC、OU：年老代容量和使用量
+PC、PU：永久代容量和使用量
+YGC、YGT：年轻代GC次数和GC耗时
+FGC、FGCT：Full GC次数和Full GC耗时
+GCT：GC总耗时
+
+        this.URL = "jdbc:postgresql://pgm-uf6r3upm2u12i05bao.pg.rds.aliyuncs.com:3433/ecgateway?searchpath=prl_gateway";
+        this.user = "postgres";
+        this.password = "Ecgateway1234";
+
+VAULT_BASE_URL
+https://vault.mdsp.gadev/v1/analytics/integ/pw-gateway
+VAULT_TOKEN
+4liwzr1rixxGGEnLpV4mOIOq
+
+acs:fc:cn-shanghai:1776133266949105:services/analytics-fcservice-pw-gateway-gainteg/functions/pw-gateway-insert
+
+
+CREATE SEQUENCE prl_gateway.gw_tenant_address_mapping_id_seq START WITH 1 INCREMENT BY 1 NO MINVALUE NO MAXVALUE CACHE 1;
+alter table prl_gateway.gw_tenant_address_mapping alter column id set default nextval('prl_gateway.gw_tenant_address_mapping_id_seq');
+
+CREATE TABLE "prl_gateway"."gw_tenant_address_mapping" (
+  "id" int8 NOT NULL,
+  "address" varchar(255) COLLATE "pg_catalog"."default" DEFAULT NULL,
+  "creation_date" timestamp(6) DEFAULT NULL,
+  "environment_id" varchar(255) COLLATE "pg_catalog"."default" DEFAULT NULL,
+  "subtenant_id" varchar(255) COLLATE "pg_catalog"."default" DEFAULT NULL,
+  "tenant_id" varchar(255) COLLATE "pg_catalog"."default" DEFAULT NULL,
+  "instance_id" varchar(255) COLLATE "pg_catalog"."default" DEFAULT NULL,
+  "rule_name" varchar(255) COLLATE "pg_catalog"."default" DEFAULT NULL
+);
+
+ALTER TABLE "prl_gateway"."gw_tenant_address_mapping" ADD CONSTRAINT "gw_tenant_address_mapping_pkey" PRIMARY KEY ("id");
+
+CREATE SEQUENCE prl_gateway.gw_tenant_address_mapping_id_seq START WITH 1 INCREMENT BY 1 NO MINVALUE NO MAXVALUE CACHE 1;
+alter table prl_gateway.gw_tenant_address_mapping alter column id set default nextval('prl_gateway.gw_tenant_address_mapping_id_seq');
+
+
+//        this.URL = "jdbc:postgresql://localhost:5432/testdb?currentSchema=prl_gateway";
+//        this.user = "postgres";
+//        this.password = "123456";
+//
+//        this.aliRegion = "cn-shanghai";
+//        this.aliAccessKeyId = "LTAIcZEQp8qyZPor";
+//        this.aliAccessKeySecret = "JVxAfjWmG0DrbGz1nWfxnmAAGY3VqL";
+
+
+
+
+    public static void main(String[] args) throws JsonProcessingException {
+        CWHandlerRequest cwHandlerRequest = new CWHandlerRequest();
+
+        Map content =  new LinkedHashMap();
+//        content.put("state", "Running");
+        content.put("state", "Stopped");
+
+        Map map = new LinkedHashMap();
+        map.put("instanceName", "i-uf6j4bsah4nmsuyruxor");
+        map.put("content", content);
+        cwHandlerRequest.handleRequest(map, null);
+
+    }
+
+
+
+37
+
+98
+
+saraba8911121314
+
+wctao1
+
+
+
+```vault config
+
+#!/bin/bash
+
+#Global variables
+VAULT_ADDR='https://vault.mindsphere-ops.siemens.cloud'
+
+echo "1. Select target variables"
+case $CI_COMMIT_REF_NAME in
+    dev)
+        VAULT_BACKEND=analytics_dev
+        DB_PASSWORD=$DB_PASSWORD_DEV ;;
+    integ)
+        VAULT_BACKEND=analytics_int
+        DB_PASSWORD=$DB_PASSWORD_INTEG ;;
+    prodb)
+        VAULT_BACKEND=analytics_prod_b
+        DB_PASSWORD=$DB_PASSWORD_PROD_B ;;
+    prod)
+        VAULT_BACKEND=analytics_prod_a
+        DB_PASSWORD=$DB_PASSWORD_PROD ;;
+    proddpp)
+        VAULT_BACKEND=analytics_dpp
+        DB_PASSWORD=$DB_PASSWORD_PROD_DPP ;;
+    *)
+        echo "Error! Can't identify environment!" ;;
+esac
+
+echo "2. Copy terraform variables"
+
+cp -r tfvars/$CI_COMMIT_REF_NAME/$AWS_REGION/. ../terraform/aws
+
+echo "3. Get AWS keys from VAULT"
+vault login -method=userpass username=$VAULT_USERNAME password=$VAULT_PASSWORD
+if [ $? -ne 0 ]; then 
+    exit 1 
+fi
+
+creds=$(vault read --format json $VAULT_BACKEND/creds/mdsp_terraform)
+if [ $? -ne 0 ]; then 
+    exit 1 
+fi
+
+vault lease renew -increment=60m $(echo $creds | jq --raw-output .lease_id)
+if [ $? -ne 0 ]; then 
+    exit 1 
+fi
+
+echo export AWS_ACCESS_KEY_ID=$(echo $creds | jq --raw-output .data.access_key) >> env_variables.var
+echo export AWS_SECRET_ACCESS_KEY=$(echo $creds | jq --raw-output .data.secret_key) >> env_variables.var
+sleep 10s
+
+echo "4. Add rds credentials into env_variables.var"
+echo export DB_PASSWORD=$DB_PASSWORD >> env_variables.var
+
+echo "5. Create or update kms key"
+chmod +x create_kms_key.sh && bash create_kms_key.sh
+
+```
+
+
+{"messageBody":"test","properties":[]}
+
+curl -X GET https://vault.mdsp.gadev/v1/analytics/integ/jobmanager-app -H 'X-Vault-Token: 4liwzr1rixxGGEnLpV4mOIOq' 
+
+
+    @Bean
+    @Primary
+    public DataSource dataSource() {
+        return DataSourceBuilder
+                .create()
+                .username("postgres")
+                .password("123456")
+                .url("jdbc:postgresql://localhost:5432/jobmanager?currentSchema=job_manager")
+                .build();
+    }
+
+
+mindsphere_security_oauth2_issuer_core_issuerUrl=https://<zone>.piam.cn1-int.mindsphere-in.cn/oauth/token
+mindsphere_security_oauth2_issuer_core_jwksUrl=https://core.piam.cn1-int.mindsphere-in.cn/token_keys
+mindsphere_security_oauth2_issuer_core_allowedZones=<zone>
+
+FC_SERVICE_NAME
+FC_FUNCTION_NAME
+ALI_ACCOUNT_ID
+spring.cloud.stream.bindings.lambda-consumer.binder: mns
+spring.cloud.stream.bindings.lambda-consumer.destination: #analytics-mns-jm-scheduler-gainteg
+spring.cloud.stream.bindings.lambda-consumer.consumer.header-mode: raw
+spring.cloud.stream.mns.bindings.lambda-consumer.consumer.message-transfer-type: Queue
+spring.cloud.stream.mns.bindings.my-consumer.consumer.enableBase64: false
+spring.cloud.stream.bindings.lambda-consumer.contentType: text/plain
+
+aliyun.mns.endpoint: #https://1776133266949105.mns.cn-shanghai.aliyuncs.com/
+aliyun.mns.access-key-id: #id
+aliyun.mns.access-key-secret: #secret
+
+
+MindSphere
+是西门子基于云的物联网操作系统
+
+MindSphere是西门子基于云的物联网操作系统。它连接您的产品，工厂，系统和机器，使您能够通过高级分析利用丰富的数据。此外，它还允许您访问越来越多的应用程序和动态开发平台即服务（PaaS）. MindSphere适用于所有流行的Web浏览器。
+MindSphere 提供由 Cloud Foundry 提供支持的托管开源平台即服务 (PaaS)，可用于开发跨平台应用并能降低开发工作量。 目前支持以下功能和 Buildpacks。这些功能和 Buildpacks 可能会随时更新和扩展。
+
+
+
+
+
+
+Data Exchange Service 通过简单的 REST API 调用提供远程文件存储和管理支持。该服务支持在相同的租户文件或文件夹中上传、下载、重命名和发布文件。
+
+Data Exchange (DE) Service 允许客户出于任何目的上传和下载数据。它适用于普通用户以及将数据上传到 MindSphere 的工具。
+
+Data Exchange 的操作以 REST API 提供。支持通过调用 API​​ 来上传、下载、组织和列出文件夹结构。
+
+要访问此服务，您需要具有 Data Exchange 角色和范围中列出的相应角色。
+客户和其它服务可以使用 DE 作为文件存储和管理提供方。分片上传和下载支持的最大文件大小为 5TB。请注意，当通过 MindGate 接收请求时，MindGate 会额外应用自己的限制，包括超时时间和请求大小。
+
+DE 不会对所传输字节的内容进行缓存、分析或病毒扫描。它使用 Spring Cloud Resource Manager 和流机制，为操作 S3 存储提供多线程支持。实施这种类型的后端通信旨在确保在最小资源负载下实现最大性能。
+
+Data Exchange Service 公开其 API 以实现以下任务：
+
+安全上传测试平台或生产数据
+从 MindSphere 中下载之前上传的数据
+下载其它 MindSphere 服务或应用生成的结果
+为用户和服务的临时或永久数据提供高性能的长期存储
+组织文件夹中的文件
+在用户级别存储机密文件，使租户的其他用户无法访问此类文件
+
+
+
+
+
+
+
+jobmanager
+Job Manager Service：
+在后台计划执行predictive learning中训练模型及拟合数据集。
+审核输入参数，及其存在性和安全可用性。
+启动执行环境。
+准备输入数据。
+执行 Zeppelin 虚拟笔记本。
+将结果存储在用户自定义的输出目录。
+依存关系¶
+Model Management Service¶
+Job Manager Service 使用 Model Management Service 的 API 访问要执行的分析模型。相关租户必须能够访问相应模型。
+
+Data Exchange Service¶
+Job Manager Service 使用 Data Exchange Service 的 API 来读取输入数据并导出输出数据。相关租户必须能够访问相应位置。
+
+Predictive Learning Services¶
+Job Manager Service 在虚拟环境中运行指定作业。该环境必须使用 Predictive Learning 服务进行定义。
+
+Apache Zeppelin¶
+Apache Zeppelin 是一个虚拟笔记本环境。Apache Zeppelin 笔记本支持各种解析器，面向多种语言和框架，包括 Scala、Python、Java 等。它们至少在两种常规场景中非常实用：
+
+训练模型来获取推理模型
+执行推理或预测任务
+功能¶
+训练模型时通常需要较高的计算资源，例如内存、存储空间、带宽和 CPU。Job Manager Service 公开其 API 以实现以下任务：
+
+继续处理开销较大的操作前，先验证提供的输入
+无论执行成功与否，都要执行必要的清理
+发生故障时，自动重新尝试开销较大的操作
+记录重要输出，方便用户回溯错误
+尽可能减少使用开销较大的资源
+限制¶
+所有输入文件均必须通过 MindSphere 网关，该网关有自己的限制条件。
+每次都在单独的执行环境中启动执行。
+设置执行环境最多可能需要 30 分钟。执行时间敏感型预测或推理任务时，谨记这一点。
+输入数据和结果的准备时间与文件大小存在线性相关性。
+示例场景¶
+开发者希望训练一个能进行异常检测的 Apache Zeppelin 笔记本模型。开发者使用 Job Manager Service 来训练（重新训练）此模型。
+
+
