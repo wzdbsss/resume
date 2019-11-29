@@ -1,6 +1,6 @@
 # Project information
 site_name: 'Résumé'
-site_description: 'information page'
+
 site_author: 'wzdbsss'
 
 # Copyright
@@ -9,12 +9,8 @@ copyright: 'Copyright &copy; 2019'
 # Documentation and theme
 theme:
   name: 'alabaster'
+  custom_dir: 'alabaster/'
 
 markdown_extensions:
   - toc:
       permalink: "¶"
-
-extra:
-  show_powered_by: false
-  homepage_nav: false
-  include_toc: yes
