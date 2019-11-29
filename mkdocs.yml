@@ -9,3 +9,12 @@ copyright: 'Copyright &copy; 2019'
 # Documentation and theme
 theme:
   name: 'alabaster'
+
+markdown_extensions:
+  - toc:
+      permalink: "¶"
+
+extra:
+  show_powered_by: false
+  homepage_nav: false
+  include_toc: yes
