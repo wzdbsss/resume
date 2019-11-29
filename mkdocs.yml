@@ -8,4 +8,4 @@ copyright: 'Copyright &copy; 2019'
 
 # Documentation and theme
 theme:
-  name: 'material'
+  name: 'alabaster'
