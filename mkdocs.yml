@@ -3,9 +3,6 @@ site_name: 'Résumé'
 
 site_author: 'wzdbsss'
 
-# Copyright
-copyright: '2019'
-
 # Documentation and theme
 theme:
   name: 'alabaster'

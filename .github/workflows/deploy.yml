@@ -20,10 +20,5 @@ jobs:
         BUILD_SCRIPT: |
           pip install -r requirements.txt
           mkdocs -q build
-          ls
-          echo '--------------'
-          ls site
-          echo '--------------'
           cp README.MD site/
-          echo '--------------'
           ls site
