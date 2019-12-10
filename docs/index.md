@@ -60,11 +60,11 @@
 - 技术要点:  
 
     1. SpringBoot + Postgresql + JPA + Activiti + Squid + Hadoop + Zepppelin + Jupyter + Vault + Nginx + Flyway + 消息队列MNS(阿里云) + 函数计算(阿里云) + 对象存储(阿里云)
-2. 使用 Spring Boot Flyway 管理数据库版本, 在VPC中搭建Vault服务器保存敏感数据
-3. 使用 Gitlab CI/CD 结合 Terraform 对 Kubernetes 集群上的微服务持续集成和部署, 提高开发效率
-4. 结合阿里云函数计算定时触发器(cron)和消息队列实现计划执行训练模型
-5. 使用非对称加密生成 JWT Token 结合 Nginx 对搭建在阿里云上的 Hadoop 集群服务进行访问权限控制
-4. 使用 activiti 工作流引擎, 异步任务流程, 后台计划任务使用RestTemplate模拟操作 Jupyter REST API, 结合函数计算和消息队列MNS实现后台执行计划任务
+    2. 使用 Spring Boot Flyway 管理数据库版本, 在VPC中搭建Vault服务器保存敏感数据
+    3. 使用 Gitlab CI/CD 结合 Terraform 对 Kubernetes 集群上的微服务持续集成和部署, 提高开发效率
+    4. 结合阿里云函数计算定时触发器(cron)和消息队列实现计划执行训练模型
+    5. 使用非对称加密生成 JWT Token 结合 Nginx 对搭建在阿里云上的 Hadoop 集群服务进行访问权限控制
+    4. 使用 activiti 工作流引擎, 异步任务流程, 后台计划任务使用RestTemplate模拟操作 Jupyter REST API, 结合函数计算和消息队列MNS实现后台执行计划任务
 
 ---
 
