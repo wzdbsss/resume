@@ -51,18 +51,20 @@
 
 - 项目描述:
     * MindSphere 是西门子基于云的物联网平台，基于 SpringCloud 开发，部署在阿里云 Kubernetes 集群上，可以连接工厂机器收集数据进行分析和利用，并允许客户自行创建应用程序使用并分析 MindSphere 存储在 DataLake 的数据。
-    * Predictive Learning Workspace（PrL）是MindSphere Analytics服务下用于训练模型和预测的工作空间，用户可根据自身需要创建不同规格的Hadoop集群，PrL为客户提供了两种版本，基础版提供仅支持Python的Jupyter Notebook，完整版提供Apache Zeppelin Notebook支持各种解析器，面向多种语言和框架。
+    * Predictive Learning Workspace（PrL）是MindSphere Analytics服务下用于训练模型和预测的工作空间模块，用户可根据自身需要创建不同规格的Hadoop集群，PrL为客户提供了两种版本，基础版提供仅支持Python的Jupyter Notebook，完整版提供Apache Zeppelin Notebook支持各种解析器，面向多种语言和框架。
+    * 用户可以在 MindSphere Predictive Learning Workspace（PrL）中打开 Jupyter Notebook 来训练基于 Python 的机器学习模型, 并使用 Job Manager Service 来执行或者重新训练模型。
 
 - 项目职责:  
-负责Predictive Learning Workspace（PrL）开发
+负责Predictive Learning Workspace（PrL）架构设计与开发
 
 - 技术要点:  
 
-    1. SpringBoot + Postgresql + JPA + Activiti + Squid + Hadoop + Zepppelin + Jupyter + Vault + Flyway + 消息队列MNS(阿里云)+函数计算(阿里云)+对象存储(阿里云)
-1. 使用Flyway管理数据库版本，使用Vault在阿里云函数计算和K8s中管理敏感数据
-2. 用户界面集成Jupyter Notebook，使用Spring Cloud Gateway实现用户对Jupyter     
-Workspace操作权限管理
-4. 使用activiti工作流引擎管理异步任务流程，后台计划任务使用RestTemplate模拟操作 Jupyter REST API，结合函数计算和消息队列MNS实现后台执行计划任务
+    1. SpringBoot + Postgresql + JPA + Activiti + Squid + Hadoop + Zepppelin + Jupyter + Vault + Nginx + Flyway + 消息队列MNS(阿里云) + 函数计算(阿里云) + 对象存储(阿里云)
+2. 使用 Spring Boot Flyway 管理数据库版本, 在VPC中搭建Vault服务器保存敏感数据
+3. 使用 Gitlab CI/CD 结合 Terraform 对 Kubernetes 集群上的微服务持续集成和部署, 提高开发效率
+4. 结合阿里云函数计算定时触发器(cron)和消息队列实现计划执行训练模型
+5. 使用非对称加密生成 JWT Token 结合 Nginx 对搭建在阿里云上的 Hadoop 集群服务进行访问权限控制
+4. 使用 activiti 工作流引擎, 异步任务流程, 后台计划任务使用RestTemplate模拟操作 Jupyter REST API, 结合函数计算和消息队列MNS实现后台执行计划任务
 
 ---
 
