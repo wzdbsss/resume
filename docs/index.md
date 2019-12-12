@@ -18,27 +18,23 @@
 - 2016/09至2018/12&ensp;&ensp;&ensp;&ensp;四川成都优易数据有限公司&ensp;&ensp;&ensp;&ensp;Java工程师
 ## 技术栈
 
-1. 熟练JAVA下的OOP编程与J2EE编程，熟悉集合框架，IO流，多线程，反射，熟悉JVM内存模型以及JVM调优
+1. 熟练JAVA下的OOP编程与J2EE编程, 熟悉集合框架, IO流, 多线程, 反射, 熟悉JVM内存模型以及JVM调优
 
-2. 熟悉阿里云基础设施，函数计算，容器服务，云数据库RDS，对象存储
+2. 熟悉阿里云基础设施, 函数计算, 容器服务, 云数据库RDS, 对象存储
 
-3. 熟悉Java常用设计模式，单例模式、代理模式、工厂模式
+3. 熟悉Java常用设计模式, 单例模式, 代理模式, 工厂模式
 
-4. 熟悉JSON/XML数据格式，熟悉正则表达式，编写网络爬虫
+4. 熟悉JSON/XML数据格式, 熟悉正则表达式, 编写网络爬虫
 
-5. 熟练使用Spring、SpringMVC、SpringBoot、Hibernate、ibatis等主流开源框架, 并可进行整合开发, 使用Git进行版本控制, 使用Maven, Gradle进行项目多模块构建并对依赖包进行管理和项目的热部署
+5. 熟练使用 Spring, SpringMVC, SpringBoot, Hibernate, ibatis, Spring Security, Shiro 等主流开源框架, 并可进行整合开发, 使用 Git 进行版本控制, 使用 Maven, Gradle 进行项目多模块构建并对依赖包进行管理和项目的热部署, 熟悉 ActiveMQ 等消息中间件
 
-6. 熟悉关系型数据库MySQL，Postgresql与非关系型数据库Redis，能够编写复杂的SQL增删改查语句
+6. 熟悉关系型数据库 MySQL, Postgresql 与非关系型数据库 Redis, 能够编写复杂的 SQL 增删改查语句
 
-7. 熟悉Vue，Angular等前端框架，HTML5, CSS3, JS, jQuery, Ajax下的前端项目
+7. 熟悉 Vue, Angular等前端框架, HTML5, CSS3, JS, jQuery, Ajax下的前端项目
 
-8. 熟悉docker容器技术，使用kubectl管理Kubernetes集群并部署服务
+8. 熟悉 Docker 容器技术, 使用kubectl管理Kubernetes集群并部署服务
 
-9. 熟悉Spring Security，Shiro权限框架，进行认证与权限的控制
-
-10. 熟悉Linux常用的操作命令，并可以安装并部署服务, 熟悉Nginx实现反向代理、动静分离、负载均衡
-
-11. 熟悉ActiveMQ消息队列和订阅模式
+9.  熟悉 Linux 操作系统, 对常用命令非常熟悉, 能够根据实际情况编写 Shell 脚本并部署服务, 熟悉 Nginx 实现反向代理, 动静分离, 负载均衡
 
 ## 主要项目
 
@@ -50,12 +46,13 @@
 2018/12 至今
 
 - 项目描述:
-    * MindSphere 是西门子基于云的物联网平台，基于 SpringCloud 开发，部署在阿里云 Kubernetes 集群上，可以连接工厂机器收集数据进行分析和利用，并允许客户自行创建应用程序使用并分析 MindSphere 存储在 DataLake 的数据。
-    * Predictive Learning Workspace（PrL）是MindSphere Analytics服务下用于训练模型和预测的工作空间模块，用户可根据自身需要创建不同规格的Hadoop集群，PrL为客户提供了两种版本，基础版提供仅支持Python的Jupyter Notebook，完整版提供Apache Zeppelin Notebook支持各种解析器，面向多种语言和框架。
+    * MindSphere 物联网平台是西门子基于云的大型分布式 Web 应用系统, 基于 Spring Cloud, 部署在阿里云 Kubernetes 集群上, 可以连接工厂机器收集数据进行分析和利用, 并允许客户自行创建应用程序使用并分析 MindSphere 存储在 DataLake 的数据。
+    * Predictive Learning Workspace（PrL）是MindSphere Analytics服务下用于训练模型和预测的工作空间模块, 用户可根据自身需要创建不同规格的Hadoop集群, PrL为客户提供了两种版本, 基础版提供仅支持Python的Jupyter Notebook, 完整版提供Apache Zeppelin Notebook支持各种解析器, 面向多种语言和框架。
     * 用户可以在 MindSphere Predictive Learning Workspace（PrL）中打开 Jupyter Notebook 来训练基于 Python 的机器学习模型, 并使用 Job Manager Service 来执行或者重新训练模型。
 
 - 项目职责:  
-负责Predictive Learning Workspace（PrL）架构设计与开发
+    * 负责Predictive Learning Workspace（PrL）架构设计与开发, 承担核心功能代码编写
+    * 负责系统性能优化, 提升 Workspace 启动速度优化用户体验
 
 - 技术要点:  
 
@@ -74,21 +71,21 @@
   2018/07-2018/12
 
 - 项目描述:    
-贵阳市发改委主导创建的全省统一的电子证照系统和电子证照库，旨在依托政务服务数据共享平台，实现电子证照信息获取、验证，推进跨层级、跨区域、跨部门电子证照互认共享。
+贵阳市发改委主导创建的全省统一的电子证照系统和电子证照库, 旨在依托政务服务数据共享平台, 实现电子证照信息获取, 验证, 推进跨层级, 跨区域, 跨部门电子证照互认共享。
 
 - 项目职责:
-    * 登录模块
-    * 证照目录、证照详情、新增证照录入历史记录、新增证件轮播模块
+    * 负责登录模块核心代码编写
+    * 证照目录, 证照详情, 新增证照录入历史记录, 新增证件轮播模块
 
 - 技术要点：
 
     1. 后端：SpringBoot + JPA + Spring Data+Hibernate + Redis等
-1. 前端：nodejs + webpack + vue等
-2. 登录模块采用SSO单点登录，将用户登录成功后的令牌token和注册地址集合保存	在Redis中，为token设置过期时间，当用户登录其它子系统时取出cookie中用户	的token值进行判断，若Redis中存在则放行，否则跳转到登录页面
-3. 使用注解的模式构建实体类之间的一对多、多对多等关系，自动生成数据表
-4. 后台管理使用Shiro进行用户认证和资源权限控制
-5. 页面静态化, 使用Nginx实现反向代理、动静分离
-6. 使用FastDFS实现大量图片及文件的存储
+    2. 前端：Nodejs + Webpack + Vue等
+    3. 登录模块采用SSO单点登录, 将用户登录成功后的令牌token和注册地址集合保存在 Redis 中并为token设置过期时间, 当用户登录其它子系统时取出cookie中用户的token值进行判断, 若Redis中存在则放行, 否则跳转到登录页面
+    4. 使用注解的模式构建实体类之间的一对多, 多对多等关系, 自动生成数据表
+    5. 后台管理使用 Shiro 进行用户认证和资源权限控制
+    6. 页面静态化, 使用 Nginx 实现反向代理, 动静分离
+    7. 使用FastDFS实现大量图片及文件的存储
 
 ---
 
@@ -98,20 +95,20 @@
   2017/07-2017/11
 
 - 项目描述:  
-郫都区防邪办主导，通过网格员手动上报邪教人员和使用爬虫搜集邪教信息，分析邪教人员活动并通过人脸识别辨认邪教人员，监控邪教活动开发的数据分析展示平台。
+郫都区防邪办主导, 通过网格员手动上报邪教人员和使用爬虫搜集邪教信息, 分析邪教人员活动并通过人脸识别辨认邪教人员, 监控邪教活动开发的数据分析展示平台。
 
 - 项目职责:  
-    * 邪教人员人脸识别匹配
+    * 嫌疑人员人脸识别匹配
     * 使用爬虫从社交网站收集数据存储并分析统计
 
 - 技术要点：
 
     1. 后端：SpringBoot + MyBatis + Redis + Lombok + Python + Druid等
-2. 后台前端：Beetl + Layui + HTML5 + CSS3 + jQuery + JS + Ajax + JSON等
-3. 使用Redis缓存数据，提升查询主页数据的效率
-4. 调用开源python人脸识别库Face recognition 进行人脸识别相似度判断
-5. 使用开源python爬虫框架Scrapy爬取数据存入Mysql数据库并展示分析结果
-6. 使用Nginx负载均衡提升并发能力  
+    2. 后台前端：Beetl + Layui + HTML5 + CSS3 + jQuery + JS + Ajax + JSON等
+    3. 使用Redis缓存数据, 提升查询主页数据的效率
+    4. 调用开源 python人脸识别库 Face recognition 进行人脸识别相似度判断
+    5. 使用开源 python 爬虫框架 Scrapy 爬取数据存入 Mysql 数据库并展示分析结果
+    6. 使用 Nginx 负载均衡提升并发能力  
    
 ---
 
