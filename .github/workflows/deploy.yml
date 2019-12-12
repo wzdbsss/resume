@@ -21,4 +21,4 @@ jobs:
           pip install -r requirements.txt
           mkdocs -q build
           cp README.MD site/
-          ls site
+          ls -al site
