@@ -22,4 +22,3 @@ jobs:
           mkdocs -q build
           cp README.MD site/
           ls -al site
-          
