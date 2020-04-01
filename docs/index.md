@@ -38,12 +38,35 @@
 
 ## 主要项目
 
-### 西门子MindSphere物联网平台
+---
+
+### Spectrum Analysis(频谱分析)
+
+- 开发周期:  
+2019/11 至 2020/04
+
+- 项目描述:
+    * 频谱分析是 MindSphere 物联网平台下的一个微服务。频谱分析允许用户对收集的机器运行时的音频文件执行时域和频域分析。它通过离散傅立叶变换(Discrete Fourier Transform)提供了将时域信号转换为频率分量，并检测其幅度的阈值突破的功能。
+    * 离散傅立叶变换使用快速傅立叶变换将给定的音频数据从时域转换到频域。每个频率都由具有自己的振幅和相位的正弦振荡表示，转换后用户可以对音频信号做阈值异常检测。
+
+- 项目职责:  
+    * 参与 Spectrum Analysis 架构设计与开发, 承担核心功能代码编写
+    * 负责系统性能优化, 将核心功能代码封装成函数计算，提升服务并发能力
+
+- 技术要点:  
+
+    1. SpringBoot + 函数计算(阿里云) + Skywalking(应用性能管理) + Vault + Mockito
+    2. 在 VPC 中搭建 Vault 服务器保存敏感数据
+    3. 使用 Gitlab CI/CD 结合资源编排工具 Terraform 对 Kubernetes 集群上的微服务持续集成和部署, 提高开发效率
+    4. 使用 Skywalking 分布式追踪系统将业务调用数据存储到 Elasticsearch 进行监控和依赖分析
+    5. 将处理音频的傅里叶变换函数与 Spring boot 服务分离并部署到阿里云函数计算，利用函数计算的弹性可伸缩计算性能，大幅提高业务的并发性能
 
 ---
 
+### Predictive Learning Workspace(预测学习工作区)
+
 - 开发周期:  
-2018/12 至今
+2018/12 至 2019/10
 
 - 项目描述:
     * MindSphere 物联网平台是西门子基于云的大型分布式 Web 应用系统, 基于 Spring Cloud, 部署在阿里云 Kubernetes 集群上, 可以连接工厂机器收集数据进行分析和利用, 并允许客户自行创建应用程序使用并分析 MindSphere 存储在 DataLake 的数据。
@@ -51,7 +74,7 @@
     * 用户可以在 MindSphere Predictive Learning Workspace（PrL）中打开 Jupyter Notebook 来训练基于 Python 的机器学习模型, 并使用 Job Manager Service 来执行或者重新训练模型。
 
 - 项目职责:  
-    * 负责Predictive Learning Workspace（PrL）架构设计与开发, 承担核心功能代码编写
+    * 参与 Predictive Learning Workspace（PrL）架构设计与开发, 承担核心功能代码编写
     * 负责系统性能优化, 提升 Workspace 启动速度优化用户体验
 
 - 技术要点:  
@@ -61,7 +84,7 @@
     3. 使用 Gitlab CI/CD 结合 Terraform 对 Kubernetes 集群上的微服务持续集成和部署, 提高开发效率
     4. 结合阿里云函数计算定时触发器(cron)和消息队列实现计划执行训练模型
     5. 使用非对称加密生成 JWT Token 结合 Nginx 对搭建在阿里云上的 Hadoop 集群服务进行访问权限控制
-    4. 使用 activiti 工作流引擎, 异步任务流程, 后台计划任务使用RestTemplate模拟操作 Jupyter REST API, 结合函数计算和消息队列MNS实现后台执行计划任务
+    6. 使用 activiti 工作流引擎, 异步任务流程, 后台计划任务使用RestTemplate模拟操作 Jupyter REST API, 结合函数计算和消息队列MNS实现后台执行计划任务
 
 ---
 
