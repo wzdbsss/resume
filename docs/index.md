@@ -4,8 +4,8 @@
 
 |                   |                      |
 | :---------------- | :------------------- |
-| 姓名: **马奇**    | 年龄: 27             |
-| 性别: 男          | 期望职位: Java工程师 |
+| 姓名: **马奇**     | 年龄: 27             |
+| 性别: 男           | 期望职位: Java工程师 |
 | 电话: 18684013197 | 工作年限: 5年        |
 
 ## 教育背景
@@ -19,21 +19,21 @@
 - 2016/09至2018/12&ensp;&ensp;&ensp;&ensp;四川成都优易数据有限公司&ensp;&ensp;&ensp;&ensp;Java工程师
 ## 技术栈
 
-1. 熟练JAVA下的OOP编程与J2EE编程, 熟悉集合框架, IO流, 多线程, 反射, 熟悉JVM内存模型以及JVM调优
+1. 熟练 Java 下的 OOP 编程与 J2EE 编程, 熟悉 Java 常用设计模式, 熟悉集合框架, IO流, 多线程, 反射, 熟悉JVM内存模型以及JVM调优
 
-2. 熟悉Java常用设计模式, 单例模式, 代理模式, 工厂模式等
+2. 熟练使用 Spring 以及其相关框架下的 Java Web 项目开发, 使用 Maven, Gradle 进行项目多模块构建并对依赖包进行管理和项目的热部署
 
-3. 熟练使用 Spring, SpringMVC, SpringBoot, Hibernate, ibatis, Spring Security, Shiro 等主流开源框架, 熟悉 Spring Cloud 和搭建其微服务, 使用 Git 进行版本控制, 使用 Maven, Gradle 进行项目多模块构建并对依赖包进行管理和项目的热部署, 熟悉 ActiveMQ 等消息中间件
+3. 熟悉 Netty 异步网络编程框架，使用 Netty 实现高并发网络通信应用
 
-4. 熟悉阿里云基础设施, 函数计算, 容器服务, 云数据库RDS, 对象存储
+4. 熟悉阿里云基础设施, 函数计算, 容器服务, 云数据库, 对象存储, 消息中间件
 
-5. 熟悉 Vue, Angular等前端框架, HTML5, CSS3, JS, jQuery, Ajax下的前端项目, 熟悉JSON/XML数据格式, 熟悉正则表达式, 编写网络爬虫
+5. 熟悉 Vue, Angular 等前端框架, HTML5, CSS3, JS, jQuery, Ajax下的前端项目, 熟悉正则表达式能编写网络爬虫
 
-6. 熟悉关系型数据库 MySQL, Postgresql 与非关系型数据库 Redis, 能够编写复杂的 SQL 增删改查语句
+6. 熟悉关系型数据库 MySQL, Postgresql 与非关系型数据库 Redis, 熟存储过程
 
-7. 熟悉 Linux 操作系统, 对常用命令非常熟悉, 能够根据实际情况编写 Shell 脚本并部署服务, 熟悉 Nginx 实现反向代理, 动静分离, 负载均衡
+7. 熟悉 Linux 操作系统以及 Shell 编程, 熟悉 Nginx 和 Squid 实现反向代理, 动静分离, 负载均衡
 
-8. 熟悉主流 PaaS 平台包括 Cloud Foundry 以及 Kubernetes, 熟悉 Docker 容器技术并使用kubectl管理Kubernetes集群并部署服务
+8. 熟悉主流 PaaS 平台包括 Cloud Foundry 以及 Kubernetes, 熟悉 Docker 容器技术并使用 kubectl 管理 Kubernetes 集群并部署服务
 
 ## 主要项目
 
