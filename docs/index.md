@@ -65,22 +65,24 @@
 - 开发周期: 2018/12 至 2019/10
 
 - 项目描述:
-    * MindSphere 物联网平台是西门子基于云的大型分布式 Web 应用系统, 基于 Spring Cloud, 部署在阿里云 Kubernetes 集群上, 可以连接工厂机器收集数据进行分析和利用, 并允许客户自行创建应用程序使用并分析 MindSphere 存储在 DataLake 的数据。
-    * Predictive Learning Workspace（PrL）是MindSphere Analytics服务下用于训练模型和预测的工作空间模块, 用户可根据自身需要创建不同规格的Hadoop集群, PrL为客户提供了两种版本, 基础版提供仅支持Python的Jupyter Notebook, 完整版提供Apache Zeppelin Notebook支持各种解析器, 面向多种语言和框架。
-    * 用户可以在 MindSphere Predictive Learning Workspace（PrL）中打开 Jupyter Notebook 来训练基于 Python 的机器学习模型, 并使用 Job Manager Service 来执行或者重新训练模型。
+    * MindSphere 物联网平台是西门子基于云的大型分布式 Web 应用系统, 基于 Spring Cloud, 部署在阿里云 Kubernetes 集群上, 可以连接工厂机器收集数据进行分析和利用, 并允许客户自行创建应用程序使用并分析 MindSphere 存储在 DataLake 的数据
+    * Predictive Learning Workspace（PrL）是 MindSphere Analytics 服务下用于训练模型和预测的工作空间模块
+    * 用户可根据自身需要创建不同规格的计算实例, 使用 Jupyter Notebook 对工厂数据进行基于 python 语言的机器学习和人工智能相关模型训练以及预测。
+    
 
 - 项目职责:  
-    * 参与 Predictive Learning Workspace（PrL）架构设计与开发, 承担核心功能代码编写
+    * 参与 Predictive Learning Workspace（PrL）开发, 承担核心功能代码编写以及代码评审
     * 负责系统性能优化, 提升 Workspace 启动速度优化用户体验
+    * 用户帮助文档编写
 
 - 技术要点:  
 
-    1. SpringBoot + Postgresql + JPA + Activiti + Squid + Hadoop + Zepppelin + Jupyter + Vault + Nginx + Flyway + 消息队列MNS(阿里云) + 函数计算(阿里云) + 对象存储(阿里云)
-    2. 使用 Spring Boot Flyway 管理数据库版本, 在VPC中搭建Vault服务器保存敏感数据
-    3. 使用 Gitlab CI/CD 结合 Terraform 对 Kubernetes 集群上的微服务持续集成和部署, 提高开发效率
-    4. 结合阿里云函数计算定时触发器(cron)和消息队列实现计划执行训练模型
-    5. 使用非对称加密生成 JWT Token 结合 Nginx 对搭建在阿里云上的 Hadoop 集群服务进行访问权限控制
-    6. 使用 activiti 工作流引擎, 异步任务流程, 后台计划任务使用RestTemplate模拟操作 Jupyter REST API, 结合函数计算和消息队列MNS实现后台执行计划任务
+    1. SpringBoot + Zuul + Mysql + JPA + Jupyter + Flyway + Maven + 消息队列MNS(阿里云)
+    2. 使用 Spring Boot Flyway 实现数据库版本迭代
+    3. 使用 Zuul 网关实现用户鉴权, 对用户访问 MindSphere API 请求进行反向代理并使用 RestTemplateInterceptor 自动添加请求的 OAuth2 Token 
+    4. 使用消息队列和定时服务实现自动销毁工作空间, 避免集群环境 Spring Scheduler 定时任务多次执行
+    5. 利用数据库实现了简单的分布式锁，防止用户在集群环境下的多次请求导致数据不一致
+    6. 使用 Gitlab CI/CD 结合 Terraform 对 Kubernetes 集群上的微服务持续集成和部署
 
 ---
 
