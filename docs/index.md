@@ -21,15 +21,15 @@
 
 1. 熟练 Java 下的 OOP 编程与 J2EE 编程, 熟悉 Java 常用设计模式, 熟悉集合框架, IO流, 多线程, 反射, 熟悉JVM内存模型以及JVM调优
 
-2. 熟练使用 Spring 以及其相关框架下的 Java Web 项目开发, 使用 Maven, Gradle 进行项目多模块构建并对依赖包进行管理和项目的热部署
+2. 熟练使用 Spring, Spring MVC, MyBatis, Hibernate 等框架, 熟悉 Spring Cloud 下的 Java Web 项目开发, 熟悉使用 Maven, Gradle 进行项目多模块构建并对依赖包进行管理和项目的热部署
 
 3. 熟悉 Netty 异步网络编程框架，使用 Netty 实现高并发网络通信应用
 
 4. 熟悉阿里云基础设施, 函数计算, 容器服务, 云数据库, 对象存储, 消息中间件
 
-5. 熟悉 Vue, Angular 等前端框架, HTML5, CSS3, JS, jQuery, Ajax下的前端项目, 熟悉正则表达式能编写网络爬虫
+5. 熟悉 Vue, Angular 等前端框架, HTML5, CSS3, JS, jQuery, Ajax下的前端项目, 熟悉正则表达式以及编写网络爬虫
 
-6. 熟悉关系型数据库 MySQL, Postgresql 与非关系型数据库 Redis, 熟存储过程
+6. 熟悉关系型数据库 MySQL, Postgresql 与非关系型数据库 Redis, 熟悉存储过程
 
 7. 熟悉 Linux 操作系统以及 Shell 编程, 熟悉 Nginx 和 Squid 实现反向代理, 动静分离, 负载均衡
 
@@ -53,11 +53,10 @@
 
 - 技术要点:  
 
-    1. SpringBoot + 函数计算(阿里云) + Skywalking(应用性能管理) + Vault + Mockito
-    2. 在 VPC 中搭建 Vault 服务器保存敏感数据
-    3. 使用 Gitlab CI/CD 结合资源编排工具 Terraform 对 Kubernetes 集群上的微服务持续集成和部署, 提高开发效率
-    4. 使用 Skywalking 分布式追踪系统将业务调用数据存储到 Elasticsearch 进行监控和依赖分析
-    5. 将处理音频的傅里叶变换函数与 Spring boot 服务分离并部署到阿里云函数计算，利用函数计算的弹性可伸缩计算性能，大幅提高业务的并发性能
+    1. Spring Boot + 函数计算(阿里云) + SLF4J + Logback + Mockito
+    2. 使用 ControllerAdvice 实现服务全局异常处理
+    3. 使用 MDC 实现多线程日志跟踪
+    4. 利用函数计算的弹性可伸缩计算性能，将执行傅立叶变换的代码抽取出来，分离到函数计算服务，大幅提高业务的并发性能
 
 ---
 
@@ -98,7 +97,7 @@
 
 - 技术要点：
 
-    1. 后端：SpringBoot + JPA + Spring Data+Hibernate + Redis等
+    1. 后端：SpringBoot + Spring Data JPA + Redis 等
     2. 前端：Nodejs + Webpack + Vue等
     3. 登录模块采用SSO单点登录, 将用户登录成功后的令牌token和注册地址集合保存在 Redis 中并为token设置过期时间, 当用户登录其它子系统时取出cookie中用户的token值进行判断, 若Redis中存在则放行, 否则跳转到登录页面
     4. 使用注解的模式构建实体类之间的一对多, 多对多等关系, 自动生成数据表
