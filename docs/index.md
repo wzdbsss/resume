@@ -48,8 +48,10 @@
     * 用户可以使用预定义的事件类型或创建自己的模板来生成新事件, 事件管理服务将用户自定义事件类型转换为实体类并创建相对应的数据库表结构。
 
 - 项目职责:  
-    * 参与 Event Management 核心功能模块代码和单元测试编写, 以及代码评审
+    * 参与 Event Management 动态创建用户事件模块代码编写
+    * 编写单元测试达到指定覆盖率
     * 负责 Event Management 微服务部署到 Kubernetes 以及相关文档编写
+    * 利用看板，燃尽图，每日站会，scrum会议，控制项目进度，软件开发质量及汇报项目状态
 
 - 技术要点:  
 
@@ -57,6 +59,8 @@
     2. 使用 Javassist 字节码操纵类库, 在运行时动态创建用户定义字段的实体类 class 字节码文件
     3. 将创建的字节码文件添加到 classpath 并用 System ClassLoader 将生成的 class 字节码加载到 JVM 中
     4. 利用 JPA 提供的 EntityManagerFactory 生成对应实体类的表结构, 完成动态建表过程
+    5. 使用 Lombok 插件减少项目中模板代码
+    6. 利用 Jacoco/SonarQube 实现项目代码覆盖率统计
 
 ---
 
@@ -69,15 +73,18 @@
     * 离散傅立叶变换使用快速傅立叶变换将给定的音频数据从时域转换到频域。每个频率都由具有自己的振幅和相位的正弦振荡表示，转换后用户可以对音频信号做阈值异常检测。
 
 - 项目职责:  
-    * 参与 Spectrum Analysis 架构设计与开发, 承担核心功能代码编写
-    * 负责系统性能优化, 将核心功能代码封装成函数计算，提升服务并发能力
+    * 重构 Spectrum Analysis 使应用程序为基于 Feign Client 的微服务框架
+    * 负责系统性能优化, 提升服务并发能力
 
 - 技术要点:  
 
     1. Spring Boot + 函数计算(阿里云) + SLF4J + Logback + Mockito
     2. 使用 ControllerAdvice 实现服务全局异常处理
     3. 使用 MDC 实现多线程日志跟踪
-    4. 利用函数计算的弹性可伸缩计算性能，将执行傅立叶变换的代码抽取出来，分离到函数计算服务，大幅提高业务的并发性能
+    4. 利用 Docker, Gitlab Runner Pipeline 自动执行测试用例以实现持续集成
+    5. 使用 Black duck/Code center 对软件程序中使用的开源软件的安全漏洞以及商业分发许可协议扫描
+    6. 利用函数计算的弹性可伸缩计算性能，将执行傅立叶变换的代码抽取出来，分离到函数计算服务，提高业务的并发性能
+    8. 使用 Feign 实现服务间 API 相互调用以及失败重试
 
 ---
 
@@ -94,16 +101,19 @@
 - 项目职责:  
     * 参与 Predictive Learning Workspace（PrL）开发, 承担核心功能代码编写以及代码评审
     * 负责系统性能优化, 提升 Workspace 启动速度优化用户体验
-    * 用户帮助文档编写
+    * 敏捷 Scrum/Kanban 及 Jira Dashboard, Confluence 等工具实施开发流程、测试用例和 bug 管理
+    * Release notes/Run book 文档编写
 
 - 技术要点:  
 
     1. SpringBoot + Zuul + Mysql + JPA + Jupyter + Flyway + Maven + 消息队列MNS(阿里云)
     2. 使用 Spring Boot Flyway 实现数据库版本迭代
-    3. 使用 Zuul 网关实现用户鉴权, 对用户访问 MindSphere API 请求进行反向代理并使用 RestTemplateInterceptor 自动添加请求的 OAuth2 Token 
+    3. 基于 Zuul 实现自定义网关和用户鉴权, 对用户 API 请求进行反向代理并自动添加 OAuth 请求头 
     4. 使用消息队列和定时服务实现自动销毁工作空间, 避免集群环境 Spring Scheduler 定时任务多次执行
     5. 利用数据库实现了简单的分布式锁，防止用户在集群环境下的多次请求导致数据不一致
-    6. 使用 Gitlab CI/CD 结合 Terraform 对 Kubernetes 集群上的微服务持续集成和部署
+    6. 基于 Java SPI(Service Provider Interface) 实现不同云平台的 IAM 组件解耦
+    7. 使用 Gitlab CI/CD 结合 Terraform 对 Kubernetes 集群上的微服务持续集成和部署
+    8. 基于 activiti 框架实现工作流异步处理模型训练/模型执行任务
 
 ---
 
